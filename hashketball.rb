@@ -134,3 +134,5 @@ end
 end
 end
 end
+num_points_scored("Brook Lopez")
+binding.pry
