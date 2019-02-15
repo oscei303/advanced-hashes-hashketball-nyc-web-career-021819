@@ -125,6 +125,7 @@ def game_hash
 end
 
 def num_points_scored (name) 
+binding.pry  
   game_hash.each do |team_position, team_data|
     team_data[:players].each do |player_name, player_data|
       if player_name == name
